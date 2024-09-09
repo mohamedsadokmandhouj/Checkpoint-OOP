@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    background-color:burlywood;
+    margin: 0;
+    padding: 30px;
+}
+
+h1, h2 {
+    text-align:left;
+    color:black;
+}
+
+#product-list, #cart-items {
+    max-width: 600px;
+    margin: 30px ;
+    background-color: gainsboro;
+}
+
+#product-list div, #cart-items div {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color:blueviolet;
+    color: white;
+    border-radius: 4px;}
+
+button:hover {
+    background-color:goldenrod;}
